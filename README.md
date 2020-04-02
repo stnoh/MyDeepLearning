@@ -1,2 +1,5 @@
 # MyDeepLearning
-Ready-to-use deep-learning modules with memorandum
+
+私個人の勉強と備忘録目的を兼ねた，ディープラーニング関連の環境設定や実装物などを挙げておくものです．
+
+- Converter: 何かしらのライブラリで使われるモデルを，他のライブラリで使えるようにするための変換についてです．  
