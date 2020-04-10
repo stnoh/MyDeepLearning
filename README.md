@@ -20,3 +20,16 @@ Windows で GraphViz を使って可視化するには，ちょっとした設�
 - **辿りつく方法**: コントロール パネル > システムとセキュリティ > システム > システムの詳細設定 > 詳細設定タブ > 環境変数 > システム環境変数  
 - 新規のパスを追加する．基本は以下のようなパスになっているはず．  
     > C:\\Program Files (x86)\\Graphviz2.38\\bin\\dot.exe
+
+
+## JupyterNotebook
+
+Anacondaでインストールしたら，普通に**Anaconda Navigator**の初期画面からインストールできる．これを利用してインストールすると，基本的なワーキングフォルダが個別ユーザのDocuments以下になってしまう．これを直すには，プロパティからアクセスできるリンク先を修正する．  
+
+```diff
+C:\ProgramData\Anaconda3\python.exe C:\ProgramData\Anaconda3\cwp.py 
+- C:\Users\{ユーザ名}\.conda\envs\{venv名} C:\Users\{ユーザ名}\.conda\envs\{venv名}\python.exe C:\Users\{ユーザ名}\.conda\envs\{venv名}\Scripts\jupyter-notebook-script.py
++ %USERPROFILE%\.conda\envs\{venv名} %USERPROFILE%\.conda\envs\{venv名}\python.exe %USERPROFILE%\.conda\envs\{venv名}\Scripts\jupyter-notebook-script.py
+- "%USERPROFILE%/"
++ {目標しているフォルダ}
+```
