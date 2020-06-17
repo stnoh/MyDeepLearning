@@ -18,3 +18,10 @@
 - cudatoolkit-10.1.243 (sync with CUDA 10.1 driver)  
 - PyTorch-1.4.0, torchvision-0.5.0  
     > conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=9.0 -c pytorch  
+
+
+### 書籍，参考したページ等
+
+- [파이토치 튜토리얼](https://tutorials.pytorch.kr/): 기초적인 내용은 한국어로 빨리 파악.  
+- ["PyTorch による発展ディープラーニング"](https://www.amazon.co.jp/dp/B07VPDVNKW)  
+- [上記書籍のgithubページ](https://github.com/YutaroOgawa/pytorch_advanced)  
