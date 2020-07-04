@@ -12,6 +12,7 @@
 - cudatoolkit-9.0 (sync with CUDA 9.0 driver)  
 - PyTorch-1.1.0, torchvision-0.3.0  
     > conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=9.0 -c pytorch  
+    > conda install tensorflow tensorboard future
 
 ### Installation (desktop)
 
