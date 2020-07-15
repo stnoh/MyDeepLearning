@@ -18,7 +18,7 @@
 ### Installation (desktop)
 
 - cudatoolkit-10.1.243 (sync with CUDA 10.1 driver)  
-- PyTorch-1.4.0, torchvision-0.5.0  
+- ~~PyTorch-1.4.0, torchvision-0.5.0~~ PyTorch-1.3.1, torchvision-0.4.0  
     > conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=9.0 -c pytorch  
     > conda install tensorflow tensorboard
     > pip install torchsummary
